@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9735d69d-ffb3-4d30-b277-a2c09d87ae0e": {
+      "ProjectGuid": "9735d69d-ffb3-4d30-b277-a2c09d87ae0e",
+      "DisplayName": "Titan",
+      "ColorIndex": 0
+    },
+    "41a2a4d3-fe09-4621-99f0-82e1b4607dd2": {
+      "ProjectGuid": "41a2a4d3-fe09-4621-99f0-82e1b4607dd2",
+      "DisplayName": "Betelguese",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

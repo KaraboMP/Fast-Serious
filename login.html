@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="main.scss">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="top-nav">
+			<div class="nav-links">
+				<a class="active" href="index.html">Home</a>
+				<a href="#news">Blog</a>
+				<a href="#contact">Contact Us</a>
+			</div>
+			<div class="nav-controls">
+				<a href="login.html"><span style="cursor: pointer;"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</span></a>
+				<a href="signup.html"><span style="cursor: pointer;"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign Up</span></a>
+			</div>
+		</div>
+
+		<div class="banner">
+			Sign in and join the convertations
+		</div>
+		<div style="display: flex; justify-content: center;padding: 20px;">
+			<div class="login-container">
+				<h2 style="text-align: center;margin: 0;">Sign In</h2>
+				<br>
+				<div class="login-controls">
+					<label for="email">Email</label>
+					<input type="email" name="email">
+				</div>
+				<div class="login-controls">
+					<label for="Password">Password</label>
+					<input type="password" name="Password">
+				</div>
+				<div class="login-controls">
+					<button onclick="doSomething()">Log In</button>
+				</div>
+				<div class="login-controls" style="display: flex;justify-content: flex-end; flex-direction: row;width: 100%;">
+					<a href="signup.html">Don't have a account?</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="main.js" ></script>
+		<script type="text/javascript" src="login.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</body>
+</html>

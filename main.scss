@@ -1,0 +1,220 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #777;
+
+	padding: 0;
+	margin: 0;
+	background-color: #f1f1f1;
+}
+.top-nav{
+	overflow: hidden;
+	background-color: #be161e ;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 10pt;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.top-nav a{
+	margin: 5px;
+	color: white;
+}
+
+.nav-links{
+	margin-left: 50px;
+}
+.nav-controls{
+	margin-right: 50px;
+}
+.nav-controls span{
+	padding-right: 10px;
+	border-right: white 1px solid;
+}
+.fa{
+	margin-right: 5px;
+}
+
+.search-container{
+	width: 100%;
+	height: 400px;
+}
+
+.search-container img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.search-container-wrapper{
+	background: rgba(0, 0, 0, 0.842);
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+
+.search-container-wrapper p{
+	font-size: 12pt;
+}
+.search-container-wrapper h1{
+	font-size: 35pt;
+	margin-bottom: 0;
+}
+.search-controls--container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+.search-controls--container input{
+	height: 45px;
+	width: 450px;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 0px;
+}
+.search-controls--container button{
+	margin-left: 25px;
+	height: 45px;
+	width: 130px;
+	border: 1px solid rgb(74, 75, 83);
+	color: white;
+	font-size: medium;
+	border-radius: 0px;
+	background: rgb(74, 75, 83);
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 40px;
+  font-size: 17px;
+	color: #A9A9A9;
+	border-bottom: #C0C0C0 solid 3px;
+}
+
+.tab button:hover {
+	color: #272727;
+	border-bottom: rgb(206, 36, 36) solid 3px;
+  cursor: pointer;
+}
+
+.tab button.active {
+	color: #272727;
+	border-bottom: rgb(206, 36, 36) solid 3px;
+}
+
+.tabcontent {
+  display: none;
+  padding-top: 30px;
+  border-top: none;
+
+}
+
+.qna-container{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.qna-message{	
+	border-bottom: #cecece solid 1px;
+	width: 100%;
+	height: 220px;
+	margin: 29px;
+	
+}
+.qna-message h3 
+{
+		margin: 0;
+		padding-left: 15px;
+	}
+	.qna-message p
+	{
+			margin: 0;
+			padding-left: 15px;
+			padding-top: 15px;
+		}
+.vote{
+	display: flex;
+	flex-direction: column;
+	font-size: 20pt;
+	justify-content: center;
+	width: 60px;
+	height: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: #cecece solid 2px;
+}
+.tags{
+	min-width: 55px;
+	height: 25px;
+	background: #be161e;
+	border-radius: 8px 2px 8px 8px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+	margin: 3px;
+	font-size: small;
+}
+.banner{
+	color: white;
+	background: #b9b9b9;
+	padding: 40px;
+	font-size: 16pt;
+}
+
+.login-container{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	
+	width: 350px;
+	padding: 40px;
+}
+
+.login-controls{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 30px;
+	justify-content: center;
+}
+
+.login-controls input{
+	width: 100%;
+	border: rgb(139, 139, 139) solid 1px;
+	height: 40px;
+}
+.login-controls label{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.login-controls button{
+	border: none;
+	background: #272727;
+	height: 45px;
+	color: white;
+	font-size: large;
+}
+.login-controls a{
+	color: #be161e;
+	text-decoration: none;
+}
+.login-controls a :hover{
+	text-decoration: solid;
+}

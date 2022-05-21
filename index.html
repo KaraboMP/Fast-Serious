@@ -1,0 +1,482 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="main.scss">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="top-nav">
+			<div class="nav-links">
+				<a class="active" href="index.html">Home</a>
+				<a href="#news">Blog</a>
+				<a href="#contact">Contact Us</a>
+			</div>
+			<div class="nav-controls">
+				<a href="login.html"><span style="cursor: pointer;"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</span></a>
+				<a href="signup.html"><span style="cursor: pointer;"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign Up</span></a>
+			</div>
+		</div>
+
+		<div class="search-container">
+			<div class="search-container-wrapper">
+				<h1>I Have Questions!</h1>
+				<p><i>Questions you are looking for might already exist. Enter it below!</i></p>
+				<div class="search-controls--container">
+					<input type="text" placeholder="Search here..">
+					<button>Search</button>
+				</div>
+			</div>
+			<img src="https://previews.123rf.com/images/9george/9george1703/9george170300160/74181071-ilustraci%C3%B3n-vectorial-de-f%C3%B3rmulas-cient%C3%ADficas-y-c%C3%A1lculos-en-f%C3%ADsica-y-matem%C3%A1ticas-.jpg" alt="">
+		</div>
+
+		<div>
+			<div class="tab">
+				<button class="tablinks" onclick="openQuestionAnswers(event, 'recent_questions')">Recent Questions</button>
+				<button class="tablinks" onclick="openQuestionAnswers(event, 'popular_responses')">Popular Responses</button>
+				<button class="tablinks" onclick="openQuestionAnswers(event, 'recently_answered')">Recently Answered</button>
+				<button class="tablinks" onclick="openQuestionAnswers(event, 'no_answers')">No Answers</button>
+			</div>
+			
+			<div id="recent_questions" class="tabcontent qna-container">
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="popular_responses" class="tabcontent qna-container">
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="recently_answered" class="tabcontent qna-container">
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div  id="no_answers" class="tabcontent qna-container">
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+				<div class="qna-message">
+					<div style="display: flex;">
+						<div class="vote">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+							<span>50</span>
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+						<div>
+							<h3>What is the square root of 4</h3>
+							<p>I'm struggling to figure out how this math works any assistance and show how to solve please. It would be very appreciated.</p>
+						</div>
+					</div>
+					<div style="display: flex;justify-content: flex-end;">
+						<div class="tags">
+							Math
+						</div>
+						<div class="tags">
+							Algebra
+						</div>
+						<div class="tags">
+							Grade 7
+						</div>
+						<div class="tags">
+							Grade 8
+						</div>
+						<div class="tags">
+							Solve
+						</div>
+						<div class="tags">
+							Show work
+						</div>
+					</div>
+				</div>
+		</div>
+		<script type="text/javascript" src="main.js" ></script>
+	</body>
+</html>
